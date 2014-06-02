@@ -2916,7 +2916,7 @@ a.widgetPostsEntryBodyTextMore{
     color: white;
 }
 .works .worksContainer.worksContainerView1 .worksEntry .worksEntryContainer .worksEntryInfo{
-    background: #333;
+    background: #CACACA; /*jessi. #333*/
 }
 
 .footerColumn{
