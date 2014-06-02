@@ -2913,7 +2913,7 @@ a.widgetPostsEntryBodyTextMore{
 }
 
 .works .worksContainer.worksContainerView1 .worksEntry .worksEntryContainer .worksEntryInfo .worksEntryInfoExcerpt{
-    color: white;
+    color: #333; /*portfolio hover over中间小字的颜色used to be white.*/
 }
 .works .worksContainer.worksContainerView1 .worksEntry .worksEntryContainer .worksEntryInfo{
     background: #E4E4E4; /*jessi. portfolio hover over的信息背景。#333*/
