@@ -377,7 +377,7 @@ body{
 /*home*/
 
 .testimonialbg{
-    background-color: rgba(244,244,244,.2); /*jessi. used to be #f4f4f4*/
+    background-color: #f4f4f4; /*jessi. used to be #f4f4f4*/
     margin-top: 44px;
     margin-bottom: 43px;
 }
@@ -630,7 +630,7 @@ body{
 
 
 .lowerfooterbg{
-    background-color: rgb(55,177,229); /*jessi. used to be #f9f9f9*/
+    background-color: #f9f9f9; /*jessi. used to be #f9f9f9*/
 }
 .lowerfooter{
     overflow: hidden;
