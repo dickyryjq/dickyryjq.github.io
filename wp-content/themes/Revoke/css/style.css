@@ -1,7 +1,5 @@
-/*all #515151 used to be #515151. 515151 is original 正文 color.*/
-
+@import url('http://fonts.googleapis.com/css?family=Oswald:400,700,300');
 @import url('http://fonts.googleapis.com/css?family=Istok+Web:400,700,400italic,700italic');
-@import url('http://fonts.googleapis.com/css?family=Raleway:300'); /*jessi*/
 
 *{
     border: 0;
@@ -41,7 +39,7 @@ textarea{
     color: #aeaeae;
 }
 .textcolor6{
-    color: #5a5a5a;/*jessi. Featured Work (filter) text color. Used to be #a8a8a8.*/
+    color: #a8a8a8;
 }
 .textcolor7{
     color: #cfcfcf;
@@ -68,16 +66,16 @@ textarea{
     background-color: rgba(81, 81, 81, 0.8);;
 }
 .font1{
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Oswald', sans-serif;
 }
 .font2{
     font-family: 'Istok Web', sans-serif;
 }
 .font3{
-    font-family: 'Raleway', sans-serif; /*jessi*/
+    font-family: 'Arial', sans-serif;
 }
 .font4{
-    font-family: 'Raleway', serif; /*jessi. for Testimonial. Used to be 'Georgia'.*/
+    font-family: 'Georgia', serif;
 }
 .bordercolor{
     border-color: #fe5113;
@@ -86,7 +84,7 @@ textarea{
     border-color: #d0d0d0;
 }
 .bordercolor3{
-    border-color: rgba(236,236,236,.5);
+    border-color: #ececec;
 }
 .bordercolor4{
     border-color: #3a3a3a;
@@ -140,7 +138,7 @@ body{
 .social{
     float: right;
     overflow: hidden;
-    padding-top: 10px; /*jessi*/
+    padding-top: 12px;
     margin-left: 4px;
 }
 .social a{
@@ -245,7 +243,7 @@ body{
     position: absolute;
 }
 .menuContainer div.menuLevel>ul.menuDrop{
-    background-color: rgba(248,248,248,.85);/*jessi. Drop down menu of parent page on top bar. Used to be #f8f8f8*/ 
+    background-color: #f8f8f8;
     padding-top: 11px;
     padding-bottom: 8px;
 }
@@ -377,7 +375,7 @@ body{
 /*home*/
 
 .testimonialbg{
-    background-color: rgba(244,244,244,.2); /*jessi. used to be #f4f4f4*/
+    background-color: #f4f4f4;
     margin-top: 44px;
     margin-bottom: 43px;
 }
@@ -630,7 +628,7 @@ body{
 
 
 .lowerfooterbg{
-    background-color: rgba(249,249,249,0); /*jessi. used to be #f9f9f9*/
+    background-color: #f9f9f9;
 }
 .lowerfooter{
     overflow: hidden;
@@ -773,7 +771,7 @@ body{
     text-transform: uppercase;
     padding: 19px 24px 16px 24px;
     background-color: #fafafa;
-    border-bottom: 1px solid rgba(236,236,236,.5);
+    border-bottom: 1px solid #ececec;
     line-height: 1em;
     color: #666666;
     font-size: 14px;
@@ -854,7 +852,7 @@ body{
 .pageSlider ul.pageSliderNav li{
     width: 24px;
     height: 9px;
-    background-color: rgba(236,236,236,.5);
+    background-color: #ececec;
     cursor: pointer;
     float: left;
     margin-left: 5px;
@@ -875,7 +873,7 @@ body{
     cursor: auto;
 }
 .pageSlider ul.pageSliderNav li.pageSliderNavFill:hover{
-    background-color: rgba(236,236,236,.5);
+    background-color: #ececec;
 }
 
 
@@ -996,7 +994,7 @@ body{
 }
 .widgetLatest .widgetLatestEntry{
     overflow: hidden;
-    border-top: 1px solid rgba(236,236,236,.5);
+    border-top: 1px solid #ececec;
     padding-top: 9px;
     padding-bottom: 11px;
     padding-left: 21px;
@@ -1046,7 +1044,7 @@ body{
 /* portofolio page */
 .works{
     overflow: hidden;
-    margin-bottom: 20px; /*jessi*/
+    margin-bottom: 41px;
 }
 .works .worksFilter{
     overflow: hidden;
@@ -1068,7 +1066,7 @@ body{
 }
 .works .worksFilter ul.worksFilterCategories li{
     float: left;
-    text-transform: capitalize; /*jessi*/
+    text-transform: uppercase;
     cursor: pointer;
     line-height: 1em;
     padding: 0 8px;
@@ -1162,7 +1160,7 @@ body{
     -webkit-box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
     -moz-box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
     box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
-    font-family: 'Raleway', sans-serif;Raleway
+    font-family: 'Oswald', sans-serif;
 }
 .works .worksContainer.worksContainerView1 .worksEntry .worksEntryContainer .worksEntryInfo .worksEntryInfoTitle a{
     text-decoration: none;
@@ -1175,7 +1173,7 @@ body{
     line-height: 18px;
     margin-top: 16px;
     margin-bottom: 16px;
-    color: #5A5A5A; /*Jessi. portfolio description 的中间部分描述字的颜色#333*/
+    color: #333;
     font-style: italic;
     text-align: center;
 }
@@ -1570,7 +1568,7 @@ body{
     margin-bottom: 16px;
     line-height: 1em;
     padding-bottom: 9px;
-    /*font-family: 'Raleway', sans-serif;
+    /*font-family: 'Oswald', sans-serif;
     font-size: 17px;
     text-transform: uppercase;
     line-height: 1em;
@@ -1616,7 +1614,7 @@ body{
     width: 193px;
 }
 .project .projectRelated ul li .title{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 17px;
     text-transform: uppercase;
     text-align: center;
@@ -1638,7 +1636,7 @@ body{
 
 .menuContainer select{
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif; /*jessi*/
+    font-family: 'Arial', sans-serif;
     font-size: 13px;
     line-height: 22px;
     font-weight: 300;
@@ -2308,7 +2306,7 @@ img{
 }
 .sidebar .widget_revoke_latest_posts ul li{
     overflow: hidden;
-    border-top: 1px solid rgba(236,236,236,.5);
+    border-top: 1px solid #ececec;
     padding-top: 9px;
     padding-bottom: 11px;
     padding-left: 21px;
@@ -2322,7 +2320,7 @@ img{
     color: #171717;
     border-bottom: 4px solid #171717;
     padding-bottom: 1px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 .sidebar .widget_revoke_latest_posts ul li a{
     float: right;
@@ -2371,7 +2369,7 @@ ul.page-numbers li{
     margin-bottom: 16px;
     line-height: 1em;
     padding-bottom: 9px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 #postForm{
     overflow: hidden;
@@ -2711,7 +2709,7 @@ a.widgetPostsEntryBodyTextMore{
     border: 1px solid #c0c0c0;
 }
 .sidebar .widgetPostsEntryDelimiter.widgetPostsEntryDelimiterSmall{
-    background: rgba(236,236,236,.5);
+    background: #ececec;
 }
 .sidebar .widgetFlickr .widgetFlickrImg{
     width: 43px;
@@ -2805,8 +2803,8 @@ a.widgetPostsEntryBodyTextMore{
 }
 
 .menuContainer > ul.menu > li{
-    font-size: 15px; /*jessi*/
-    margin-right: 1.5px; /*jessi*/
+    font-size: 15px;
+    margin-right: 0;
     margin-left: 7px;
 }
 .menuContainer > ul.menu{
@@ -2913,10 +2911,10 @@ a.widgetPostsEntryBodyTextMore{
 }
 
 .works .worksContainer.worksContainerView1 .worksEntry .worksEntryContainer .worksEntryInfo .worksEntryInfoExcerpt{
-    color: #333; /*portfolio hover over中间小字的颜色used to be white.*/
+    color: white;
 }
 .works .worksContainer.worksContainerView1 .worksEntry .worksEntryContainer .worksEntryInfo{
-    background: #E4E4E4; /*jessi. portfolio hover over的信息背景。#333*/
+    background: #333;
 }
 
 .footerColumn{
@@ -3219,8 +3217,7 @@ blockquote{
 .postCommentsEntryBodyMessage p,
 .post .postBody p,
 .pageContents p{
-    /*margin-top: 10px; */   /*jessi*/
-  
+    margin-top: 10px;   
 }
 .postCommentsEntryBodyMessage h1,
 .postCommentsEntryBodyMessage h2,
@@ -3511,7 +3508,7 @@ blockquote blockquote{
 .logo{
     position: static;
     float: left;
-    margin-top: -7px; /*jessi*/
+    margin-top: -7px;
     margin-bottom: 16px;
 }
 
@@ -3525,7 +3522,7 @@ blockquote blockquote{
 }
 .testimonial_slider{
     position: relative;
-    margin-top: 1px; /*jessi*/
+    margin-top: 44px;
     margin-bottom: 43px;
 }
 .testimonial_slider .testimonialbg{
