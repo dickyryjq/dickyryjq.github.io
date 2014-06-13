@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .featurette-divider {
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 hr {
 	margin-bottom: 0px; 
@@ -178,6 +179,19 @@ h4 {
           cursor: pointer;
       }
 
+
+
+.pagetop{
+width: 100%;
+background-color: #3995b7;	
+margin:0px;
+}
+
+
+.section-title{       /*Jessi add CSS*/
+	font-size: 30px;
+	padding-bottom: 3%;
+}
 
 
 footer{
