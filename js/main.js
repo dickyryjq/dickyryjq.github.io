@@ -11,3 +11,5 @@ $(document).ready(function() {
 
   ga('create', 'UA-44938135-1', 'xiaoyuew.com');
   ga('send', 'pageview');
+
+
