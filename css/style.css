@@ -1,12 +1,13 @@
 @import url('http://fonts.googleapis.com/css?family=Raleway:300'); /*jessi*/
-@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:600');/*jessi*/
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600');/*jessi*/
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
 	/*background-color: #e6d8cb;*/
 	margin-bottom: 40px;
-	color: #636363;
-	
+	color: #343434;
+	background: #f0f0f0 url(../img/cream_dust.jpg);
 
 }
 /*.container {
