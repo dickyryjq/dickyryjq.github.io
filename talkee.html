@@ -4,7 +4,7 @@
     <title>Smile...There is a moon</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Xiaoyue Wang, Jessica Wang">
-    
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet">
@@ -37,100 +37,198 @@
 
     
     <!-- Project info -->
-    <div class="container marketing">
+<div class="container marketing">
 	    <div class="row featurette first-featurette">
-		    <div class="col-md-6 nav-left">
-			    <!-- <a href="#">&larr; Previous</a> -->
-			</div>
-			
-		    <div class="col-md-9">
-			    <h1 class="featurette-heading">TalKee - Mobile App Design</h1>
-			    <p class="lead" id="about-lead">Allow close friends to see each other's availability and connect conveniently.</p>
-<p>&nbsp;</p>
-<p style="text-align: center; font-size:150%;">
-<img class="aligncenter size-full wp-image-1314" alt="splash screen intro" src="img/talkee/splash-screen-intro.jpg" width="860" height="510" /></p>
+		    <div class="col-md-12">
+          <p>&nbsp;</p>
+          <p style="text-align: center; font-size:150%;">
+          <img class="aligncenter size-full wp-image-1314" alt="splash screen intro" src="img/talkee/splash-screen-intro.jpg" width="100%" /></p>
 
-      <hr class="featurette-divider">
+ <hr class="featurette-divider">
 
-<p><img class="aligncenter size-full wp-image-1315" alt="homepage intro" src="img/talkee/homepage-intro.jpg" width="860" height="510" /></p>
-
-      <hr class="featurette-divider" style="margin-bottom: 0">
-
-<p><img class="aligncenter size-full wp-image-1316" alt="graph intro" src="img/talkee/graph-intro.jpg" width="860" height="510" /></p>
-
-      <hr class="featurette-divider">
-
-<p><img class="aligncenter size-full wp-image-1317" alt="for portfolio 2 new" src="img/talkee/for-portfolio-2-new.jpg" width="860" /></p>
-<p>- Because it broadcasts one&#8217;s availability, TalKee is primarily used between close friends, so you won&#8217;t have a ton of contacts in this app. The user&#8217;s close friends could see his/her availability and decide whether to call, chat, notify the user, or simply check his availability graph.<br />
-- We think that such concept could be used in other situations (business, etc.) where people need to know if it&#8217;s a good time to contact one another.<br />&nbsp;
-
-
-      <hr class="featurette-divider">
-
-<img src="img/talkee/dashboard-mac.png" alt="dashboard-mac" width="100%" class="alignleft size-full wp-image-1423" /><br />
-&nbsp;</p>
-
-  <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading-bootply" style="text-align:center;">Why TalKee?</h2>
+          <p class="lead" style="text-align:center;padding:0px 80px 20px 80px;">With over 10 interviews, we found that one of the communication problems between parents and adult children is that parents don&#8217;t know when is the right time to contact their children, and as a result, it turns out to be intrusive.<br>
+          According to what we found, I made the personas and scenarios.<br>&nbsp;<br />
+        </div>
+      </div>
 
 
 
+      <div class="row">
+          <div class="col-md-4 text-center">
+            <img class="img-circle" src="img/talkee/dad" width="140">
+            <h4>CARL, 53, Seattle</h2>
+            <p>Carl has a 19-year-old daughter, Lynne, who attends college in Pittsburgh.</p>
+            <p style="color:rgb(31, 166, 245); font-weight:500; font-size:115%"><em>"I miss Lynne, and sometimes worry about her being alone in a new city. What is she doing now?"</em></p>
+          </div>
+          <div class="col-md-4 text-center">
+            <img class="img-circle" src="img/talkee/daughter" width="140">
+            <h4>LYNNE, 19, Pittsburgh</h2>
+            <p>Lynne is living away from home for the first time. Enjoying her freedom, but missing her family.</p>
+            <p style="color:rgb(31, 164, 245);font-weight:500; font-size:115%"><em>"I want to talk to my dad when he calls, but my schedule is full and I always receive calls during class or when I hang out with friends."</em></p>
+          </div>
+          <div class="col-md-4 text-center">
+            <img class="img-circle" src="img/talkee/jack.jpg" width="140">
+            <h4>JACK, 56, Remote</h2>
+            <p>Jack is an engineer who monitors the usage and efficiency of TalKee from dashboard.</p>
+            <p style="color:rgb(31, 164, 245);font-weight:500; font-size:115%"><em>"I need to quickly see how activity-recognition triggers are performing, and understand how people are using TalKee."</em></p>
+          </div>
+      </div><!-- /.row -->
+
+                <hr class="featurette-divider">
+
+
+            <h2 class="featurette-heading-bootply" style="text-align:center;">Sensors</h2>
+            <p class="lead" style="text-align:center;padding:0px 80px 20px 80px;">We brainstormed ideas using smartphone sensors to detect availability, and believed by combining the three together, it will provide enough context to make a reasonable judgement:</p>
+            <p class="lead" style="text-align:center;padding:0px 80px 20px 80px;font-weight:500;font-size:180%">GPS<br><span style="color:rgb(31, 164, 245);font-weight:600; font-size:200%; padding: 0px;">+</span><br>accelerometer<br><span style="color:rgb(31, 164, 245);font-weight:600; font-size:200%">+</span><br>microphone</p>
+
+                <hr class="featurette-divider">
+
+         <h2 class="featurette-heading-bootply" style="text-align:center;"><span style="color:rgb(248,110,110); text-shadow: 0px 1px #000;">Red</span>, <span style="color:rgb(107,228,97);text-shadow: 0px 1px #000;">Green</span>, and <span style="color:rgb(253,226,49);text-shadow: 0px 1px #000;">Yellow</span>.</h2>
+         <p class="lead" style="text-align:center;padding:0px 80px 20px 80px;">We thought it'd be cool to use colors to differentiate availability.</p>
+         <p style="text-align: center;"><img src="img/talkee/design_lang.jpg" width="80%" /></p>
+
+                <hr class="featurette-divider">
+
+          <p style="text-align: center;"><img src="img/talkee/homepage-intro.jpg" width="100%" /></p>
+
+                <hr class="featurette-divider" style="margin-bottom: 0">
+
+          <p style="text-align: center;"><img class="aligncenter size-full wp-image-1316" alt="graph intro" src="img/talkee/graph-intro.jpg" width="100%" /></p>
+
+                <hr class="featurette-divider">
+
+          <p style="text-align: center;"><img class="aligncenter size-full wp-image-1317" alt="for portfolio 2 new" src="img/talkee/for-portfolio-2-new.jpg" width="100%" /></p>
+
+
+          <hr class="featurette-divider">
 
 
 
-<p class="section-title"><strong>Process</strong></p>
-<p>Let me tell you how we got here. With over 10 interviews, we found out that the biggest problem among parents and adult children is that parents don&#8217;t know when is the right time to contact their children, as a result, it turns out to be intrusive.<br />
-According to what we found, I made the personas and scenarios.<br />
-<img alt="Personas (v2)" src="img/talkee/Personas-v2.png" width="100%"/><br />
-<img alt="Scenario (v2)" src="img/talkee/Scenario-v2.png" width="100%"/></p>
-<p>We looked into the possible sensors a smartphone could have, and brainstormed ideas to use the sensors to detect availability.</p>
-<img src="img/talkee/design_lang.jpg" width="100%"/></p>
-<p><strong>Navigation Map:</strong><br />
-<img class="aligncenter size-full wp-image-1256" alt="Nav Map" src="img/talkee/Nav-Map.jpg" width="100%" /><br />&nbsp;<br>
-I created wireframes of tutorial pages when the app is being used for the first time:<br />
-<img class="aligncenter size-full wp-image-1257" alt="wireframe" src="img/talkee/wireframe.jpg" width="100%" /></p>
-<p><img class="aligncenter size-full wp-image-1318" alt="Technical Specifications" src="img/talkee/Technical-Specifications.jpg" width="100%" /></p>
-<p><img class="aligncenter size-full wp-image-1319" alt="Visual Specifications" src="img/talkee/Visual-Specifications.jpg" width="100%" /></p>
-<p>&nbsp;</p>
+          <h2 class="featurette-heading-bootply" style="text-align:center;">Dashboard Design.</h2>
+          <p class="lead" style="text-align:center; padding:0px 80px 0px 80px;">As the dashboard monitor, Jack can view what are the triggers that change users' availability status, and what are users' responses. Are the theories and assumptions underlying the design true? Is the service being used in the way the team imagines?</p>
+          <img class="featurette-image-bootply " src="img/talkee/dashboard-mac.png" width="100%">
+
+  
+
+          <hr class="featurette-divider">
 
 
+          <p style="text-align: center;"><img class="aligncenter size-full wp-image-1319" alt="Visual Specifications" src="img/talkee/Visual-Specifications.jpg" width="80%" /></p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
 
 
-
-
-			
+ </div>
 		    </div>
-		    <div class="col-md-3 project-sidebar">
-			    <div class="project-info">
-            <h4>Final Deliverables</h4>
-            <p>Hi-fi Screens</p>
+      </div>
+
+</div>
+
+
+
+
+
+<section class="process">
+      <div class="row">
+         <div class="col-md-12">
+          <h2 class="featurette-heading-bootply" style="text-align:center; color: #fff">process<br>&nbsp;</h2>
+         </div>
+
+      <div class="row">
+         <div class="col-md-4">
+
+                    <h4 style="font-size: 21px;color: #fff" >UX Methods</h4>
+                    <p style="font-size: 20px;color: #fff" >Interviews<br>
+                      Affinity Diagramming<br>
+                      Prototyping<br>&nbsp;<br>
+                      </p> 
+                    <p style="font-size: 80%; color:#ccc"><span><strong>Next step</strong></span><br>
+                    - Because it broadcasts one&#8217;s availability, TalKee is primarily used between close friends. If contact number grows, it'd be helpful to have contact list ordered by availability, or even use filters.<br />
+                    - Such concept could be used in other situations (business, etc.) where people need to know if it&#8217;s a good time to contact one another.<br />
+                    - Make it accessible to all users - add other cues to broadcast people's availability.</p>
+         </div>
+
+        <div class="col-md-8">
+            <div class="flexslider">
+                  <ul class="slides" >
+                    <li >
+                      <img src="img/talkee/Personas-v2.png" />
+                    </li>
+                    <li >
+                      <img src="img/talkee/Scenario-v2.png" />
+                    </li>
+                    <li >
+                      <img src="img/talkee/Nav-Map.jpg" />
+                    </li>
+                    <li >
+                      <img src="img/talkee/wireframe.jpg" />
+                    </li>
+                    <li >
+                      <img style="width:65%" src="img/talkee/Technical-Specifications.jpg" />
+                    </li>
+                  </ul>
+            </div>
+        </div>
+
+      </div>
+</section>
+
+
+
+
+
+<footer>
+ <div class="footer">
+
+
+         <div class="col-md-3">
+			       <div class="">
             <h4>Timeline</h4>
             <p>Jan 2014 - Feb 2014</p>
-				    <h4>Teammates</h4>
-				    <p>Ivory Assan<br>
-					    Jamie Crawford
-					   </p>
-					<h4>My Contributions</h4>
-					<p>Personas<br>
+            </div>
+		    </div>
+		    <div class="col-md-3">
+			    <h4>Teammates</h4>
+            <p>Ivory Assan<br>
+              Jamie Crawford
+             </p>
+         </div>
+        <div class="col-md-3" style="padding: 0px 0px 20px 0px;">
+         <h4>My Contributions</h4>
+          <p>Personas<br>
             Wireframming<br>
             Visual design<br>
             Animation</p>
-				    <h4>UX Methods</h4>
-				    <p>Interviews<br>
-					    Affinity Diagramming<br>
-					    Prototyping<br>
-					    </p>
-		    </div>
-		    <div class="col-md-8">
-			    
-			</div>
-		</div>
+         </div>   
+        <div class="col-md-3">
+        <h4>Final Deliverables</h4>
+        <p>Hi-fi Screen</p>
+        </div>   
+
 	</div>
+
+</footer>
+
 
     
     <script src="js/jquery-1.10.2.min.js"></script><!-- jQuery -->
     <script src="js/bootstrap.min.js"></script><!-- Bootstrap -->
 
     <script src="js/main.js"></script><!-- Main -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<!-- FlexSlider -->
+<script type="text/javascript" charset="utf-8">
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
 
 
 <script>
