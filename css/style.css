@@ -215,3 +215,68 @@ footer{
 }
 
 /*slider test*/
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 1;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color:#555;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 400px;
+}
+
+
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider-bootply {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette-bootply {
+  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image-bootply {
+  /*margin-top: -120px;*/ /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image-bootply.pull-left {
+  margin-right: 40px;
+}
+.featurette-image-bootply.pull-right {
+  margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading-bootply {
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+section.process {
+	background:rgb(105,106,109);
+	margin:auto;
+	padding: 20px 90px 20px 90px;
+}
