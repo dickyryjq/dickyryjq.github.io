@@ -195,7 +195,7 @@ h4 {
 width: 100%;
 background-color: #56b162;	
 margin:0px;
-}
+} 
 
 
 .section-title{       /*Jessi add CSS*/
@@ -281,6 +281,17 @@ footer{
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+
+section.projinfo {
+	background:rgb(238,238,238);
+	margin:auto;
+	padding: 20px 90px 220px 90px;
+	font-size: 14px;
+	line-height:170%;
+	color: #000;
+	text-align: center;
+	height: 100%;
 }
 
 section.process {
