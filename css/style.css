@@ -208,13 +208,14 @@ footer{
 
 	margin: auto;
 	background: rgba(44,164,209,1);
-	padding: 40px 0px 0px 0px;
+	padding: 20px 0px 5px 0px;
 	font-size: 12px;
 	color: #ffffff;
 	text-align: center;
 	height: 100%;
 	box-shadow: 0px 500px 0px 500px rgba(44,164,209,1);
 	}
+
 
 @media (max-width: 768px) {
 	#nav {
