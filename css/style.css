@@ -287,7 +287,7 @@ footer{
 section.projinfo {
 	background:rgb(238,238,238);
 	margin:auto;
-	padding: 20px 90px 220px 90px;
+	padding: 20px 90px 190px 90px;
 	font-size: 14px;
 	line-height:170%;
 	color: #000;
@@ -301,3 +301,26 @@ section.process {
 	padding: 20px 90px 20px 90px;
 	box-shadow: 0px 500px 0px 500px rgb(105,106,109);
 }
+
+.problem-left {
+	/*color: #20B798;*/
+	padding: 65px 80px 180px 0px;
+	margin-left: -15px;
+	margin-right: -15px;
+	background: url(../img/croak/bg.png);
+	max-height: 370px;
+ 
+}
+
+.problem-right {
+	color: #fff;
+	padding: 65px 60px 80px 80px;
+	margin-left: -15px;
+	margin-right: -15px;
+	background: url(../img/croak/friction.png);
+	background-size: 100%;
+	max-height: 370px;
+
+}	
+
+
