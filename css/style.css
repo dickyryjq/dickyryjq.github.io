@@ -8,7 +8,6 @@ body {
 	margin-bottom: 40px;
 	color: #343434;
 	/* background: #f0f0f0 url(../img/cream_dust.jpg);*/
-
 }
 /*.container {
 	background-color: #fff;
@@ -16,21 +15,32 @@ body {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 600;
-	/*color: #395d5a;*/
 }
 .navbar-default {
-	background-color: rgba(44,164,209,0.8);
-	border-color: rgb(129,208,234);
+	/*background-color: rgba(44,164,209,0.8);
+	border-color: rgb(129,208,234);*/
+	background-color: rgba(255,255,255,0.8);
+	border-color: #dfdfdf;
+	height:60px;
+	-webkit-transition: background-color 0.8s;
 }
+
+.navbar-default:hover {
+	/*background-color: rgba(44,164,209,0.8);
+	border-color: rgb(129,208,234);*/
+	background-color: rgba(255,255,255,1);
+	border-color: #eee;
+}
+
 .navbar-brand {
-	font-weight: 600;
-	color: #fff;
+	font-weight: 500;
 }
 .navbar-default .navbar-brand {
-	color: #fff;
+	color: #2CA4D1;
+	font-size: 22px;
 }
 .navbar-default .navbar-brand:hover {
-	color: #fff;
+	color:  #2CA4D1;
 }
 .sub-header {
 	padding-top: 16px;
@@ -41,26 +51,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color: rgb(245,245,245);
 }
 .navbar-default .navbar-nav>li>a {
-	color: rgb(245,245,245);
+	/*color: rgb(245,245,245);*/
+	color: #4a4a4a;
 }
 .navbar-default .navbar-nav>li>a:hover {
-	color: #FFD927;
+	color: #2CA4D1;
 }
-/*#nav .current { background-color: #fff/*#f9e0e0*!/; }*/
-/*#nav .current a { color: rgba(44,164,209,0.8); }*/
-#about-me {
-	background-color: rgb(245,245,245);
+
+#about {
+	background-color: #fff;
 }
-#about-read-more {
-	display: none;
-}
-.about-me-back {
-	background-image: url('../img/photo.png');
-	background-repeat: no-repeat;
-	background-position: right bottom;
-	background-size: 430px 336px ;
-	padding-bottom: 60px;
-}
+
 .featurette {
 	padding-top: 40px;
 }
@@ -76,6 +77,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	width: 303px;
 	height: auto;
 }
+
+.img-responsive-project-2015 {
+	width: 100%;
+	height: auto;
+}
+
+.nopadding-2015 {
+	padding: 0px;
+}
+
 .img-responsive {
 	width: 100%;
 	height: auto;
@@ -106,26 +117,61 @@ hr {
 	float: left;
 	position: absolute;
 	opacity: 1;
-		background-color: rgb(44,164,209);
+	background-color: rgb(44,164,209);
 }
+
+
+.project-hover-2015 {
+	float: left;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+  	position: absolute;
+  	-webkit-transition: opacity 0.5s ease 0s;
+  	-moz-transition: opacity 0.5s ease 0s;
+  	transition: opacity 0.5s ease 0s;
+  	padding-left: 10px;
+  	padding-right: 10px;
+ }
+
+.project-hover-2015:hover {
+	position: absolute;
+	opacity: 1;
+	background-color: rgba(255,255,255,.85);
+}
+
 
 
 .project-name h3 {
-	text-align: center;
-	margin-top: 120px;
-	color: #fff;
-	font-size:151%;
+	text-align: left;
+	padding-left: 8%;
+	padding-right: 8%;
+	margin-top: 15%;
+	color: #4A4A4A;
+	font-size:150%;
+	font-weight: 400;
 }
 
 .project-name p {
-	font-size: 120%;
-	margin-top: 15px;
-	text-align: center;
-	color: rgb(150,214,238);
+	margin-top: 10px;
+	text-align: left;
+	padding-left: 8%;
+	color: rgba(44,164,209,1);
 	font-weight: 400;
-	margin-left: 11px;
-	margin-right: 11px;
 }
+
+.project-name h5 {
+	
+	margin-top: 50%;
+	text-align: left;
+	padding-left: 8%;
+	color: #4A4A4A;
+	font-weight: 400;
+}
+
+
+
+
 .go-back {
 	margin-bottom: 20px;
 }
@@ -183,13 +229,17 @@ h4 {
       }
       ul li {     
           list-style:none;
+
           /*margin-bottom:25px;  Jessi */        
       }
       ul li img {
           cursor: pointer;
       }
 
-
+.croakul:before {
+		 content: "\00BB  \00a0 \00a0 ";
+		 color: #20B798;
+	     }
 
 .pagetop{
 width: 100%;
@@ -285,7 +335,7 @@ footer{
 }
 
 section.projinfo {
-	background:rgb(238,238,238);
+	background:#f7f7f7;
 	margin:auto;
 	padding: 20px 90px 190px 90px;
 	font-size: 14px;
@@ -314,7 +364,7 @@ section.process {
 
 .problem-right {
 	color: #fff;
-	padding: 65px 60px 80px 80px;
+	padding: 65px 80px 80px 80px;
 	margin-left: -15px;
 	margin-right: -15px;
 	background: url(../img/croak/friction.png);
@@ -323,4 +373,20 @@ section.process {
 
 }	
 
+.row-2015 {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+.header-image {
+	display: block;
+	height: 29px; 
+	width: 24%;
+	min-width: 200px;
+	height: auto;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
