@@ -137,7 +137,7 @@ hr {
 .project-hover-2015:hover {
 	position: absolute;
 	opacity: 1;
-	background-color: rgba(255,255,255,.85);
+	background-color: rgba(255,255,255,.86);
 }
 
 
@@ -374,7 +374,7 @@ section.process {
 }	
 
 .row-2015 {
-	max-width: 1024px;
+	max-width: 1080px;
 	margin-left: auto;
 	margin-right: auto;
 }
