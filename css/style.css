@@ -86,17 +86,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .nopadding-2015 {
     padding: 0px;
     margin: 15px;
-    border-width: 10px;
+    border-width: 12px;
     border-style: solid;
     border-color: #fff;
 }
 
 
 .nopadding-2015:hover {
-  	-webkit-transition: opacity 0.5s ease 0s;
-  	-moz-transition: opacity 0.5s ease 0s;
+  	-webkit-transition: box-shadow 0.5s ease 0s;
+  	-moz-transition: box-shadow 0.5s ease 0s;
   	transition: box-shadow 0.5s ease 0s;
-  	box-shadow: 5px 5px 15px #c6c6c6;
+  	box-shadow: 4px 6px 18px #c4c4c4;
 }
 
 .yespadding-2015 {
@@ -228,6 +228,11 @@ h4 {
 	padding-bottom: 20px;
 	font-size: 95%;
 }
+
+.project-image {
+	background-color: #FFF;
+}
+
 .img-border {
 	
 	-moz-box-shadow: -1px 0px 5px #999;
