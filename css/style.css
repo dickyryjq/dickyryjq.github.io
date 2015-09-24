@@ -1,6 +1,10 @@
 @import url('http://fonts.googleapis.com/css?family=Raleway:300'); /*jessi*/
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600');/*jessi*/
 
+a {
+	text-decoration: none; 
+}
+
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
