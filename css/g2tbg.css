@@ -26,8 +26,7 @@ h2 {
 	left: 50%;*/
 	position: absolute;
 	/*text-align: center;*/
-	margin-top: 10%;
-    z-index: 3000;
+	margin-top: 150px;
 }
 
 .cb-slideshow,
@@ -37,7 +36,7 @@ h2 {
     height: 100%;
     top: 0px;
     left: 0px;
-    z-index: 0; 
+    z-index: -3000; 
     list-style-type: none;
 }
 /*.cb-slideshow:after { 
