@@ -282,7 +282,7 @@ hr {
 	margin-top: 15%;
 	color: white;
 	font-size:150%;
-	font-weight: 400;
+	font-weight: 800;
 }
 
 .project-name p {
@@ -290,7 +290,7 @@ hr {
 	text-align: left;
 	padding-left: 8%;
 	color: white;
-	font-weight: 400;
+	font-weight: 200;
 }
 
 .project-name h5 {
@@ -299,7 +299,7 @@ hr {
 	text-align: left;
 	padding-left: 8%;
 	color: white;
-	font-weight: 400;
+	font-weight: 200;
 }
 
 .project-desc {
@@ -524,7 +524,7 @@ section.process {
 	width: 20%;
 	min-width: 200px;
 	height: auto;
-	margin-top: 140px;
+	margin-top: 90px;
 	margin-left: auto;
 	margin-right: auto;
 
