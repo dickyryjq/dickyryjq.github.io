@@ -99,8 +99,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   	-webkit-transition: box-shadow 0.5s ease 0s;
   	-moz-transition: box-shadow 0.5s ease 0s;
   	transition: box-shadow 0.5s ease 0s;
-  /*	box-shadow: 4px 6px 18px #c4c4c4;*/
-  box-shadow: 4px 6px 18px #E8E9EB;
+  	box-shadow: 10px 20px 24px #E1E1E3;
 }
 
 .yespadding-2015 {
@@ -286,7 +285,6 @@ hr {
 }
 
 .project-name p {
-	margin-top: 10px;
 	text-align: left;
 	padding-left: 8%;
 	color: white;
