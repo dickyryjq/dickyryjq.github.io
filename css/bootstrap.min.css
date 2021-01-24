@@ -5852,15 +5852,19 @@ th.visible-xs,td.visible-xs {
     .project-hover-disney {
         display: none;
     }   
+    .row-2021 {
+        width: 100%;
+    }
     /*Show description below img on hover*/
-    .mobileShow 
-    {display: inline;}
+    .mobileShow {
+        display: inline;
+    }
 
 
 }
 
 @media(min-width:1101px) {
-.mobileShow {display: none;visibility: hidden;}
+    .mobileShow {display: none;visibility: hidden;}
 
 }
 
