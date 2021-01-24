@@ -125,7 +125,7 @@ legend {
 }
 
 button,input,select,textarea {
-    margin: 0;
+ 
     font-family: inherit;
     font-size: 100%;
 }
@@ -274,6 +274,40 @@ body {
     background-color: #fff;
 }
 
+
+button {
+    background-color:transparent;
+    border: 1px solid #fff;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 60px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 4%;
+}
+button:focus {outline:0;}
+
+
+.button-amzn {
+}
+
+.button-amzn:hover {
+    background-color: #fff;
+    color: #FF9A00;
+}
+
+.button-dis {
+}
+
+.button-dis:hover {
+    background-color: #fff;
+    color: #C01236;
+}
+
 input,button,select,textarea {
     font-family: inherit;
     font-size: inherit;
@@ -414,7 +448,7 @@ cite {
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 500;
-    line-height: 1.1;
+    line-height: 0;
 }
 
 h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small {
@@ -5791,7 +5825,7 @@ th.visible-xs,td.visible-xs {
     display: none!important;
 }
 
-@media(max-width:767px) {
+@media(max-width:1100px) {
     .visible-xs {
         display: block!important;
     }
@@ -5803,7 +5837,33 @@ th.visible-xs,td.visible-xs {
     th.visible-xs,td.visible-xs {
         display: table-cell!important;
     }
+
+    /*Hide overlay description on hover*/
+
+    .project-hover-msft {
+        display: none;
+    }
+    .project-hover-amzn {
+        display: none;
+    }
+    .project-hover-g2t {
+        display: none;
+    }
+    .project-hover-disney {
+        display: none;
+    }   
+    /*Show description below img on hover*/
+    .mobileShow 
+    {display: inline;}
+
+
 }
+
+@media(min-width:1101px) {
+.mobileShow {display: none;visibility: hidden;}
+
+}
+
 
 @media(min-width:768px) and (max-width:991px) {
     .visible-xs.visible-sm {
