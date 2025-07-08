@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 
   window.onload = function() {
-  	var text1 = "I've been working on Microsoft Teams since its public launch in 2017. Over the years Teams has become Microsoft's fastest growing product. I’m on the core team of the design org here and have delivered multiple key features that millions of people use everyday. Those features include announcement post type, cross posting, fun picker, message translation, new team creation flow, team analytics, and many others. I work with devs, PMs, researchers, etc with tight timeline and engineering constraints and routinely present my work to senior leadership team.";
+  	var text1 = "I've been working on Microsoft Teams since its public launch in 2017. Over the years Teams has become Microsoft's fastest growing product. I’m on the core team of the design org here and have delivered many experiences that millions of people use everyday. I collaborate with cross-functional teams to drive features from concept to launch, define design roadmaps, manage requirements, and routinely present my work to senior leadership team.";
   	var elements = document.getElementsByClassName('msft');
   	for (i = 0; i < elements.length; i = i+1){
   		elements[i].innerHTML = text1;
@@ -26,13 +26,13 @@ $(document).ready(function() {
   		elements[i].innerHTML = text2;
   	}
 
-  	var text3 = "GoToTraining provides virtual classrooms with remote activities and rich collaboration. I designed and shipped features touching all lifecycle of the product on desktop, web and mobile: pre-training (schedule, invite, material prep, etc), during-training (device set up, activities, breakout rooms, etc), and post-training (course summary, emails, recording, etc). I also worked sooooo closely with devs and learned to speak their language (and make friends). I worked there from 2015 to 2016.";
+  	var text3 = "GoToTraining provides virtual classrooms with remote activities and rich collaboration. Since 2015, I designed and shipped features touching all lifecycle of the product on desktop, web and mobile: pre-training (schedule, invite, material prep, etc), during-training (device set up, activities, breakout rooms, etc), and post-training (course summary, emails, recording, etc). I also worked so closely with the dev team that speak their language, literally.";
   	var elements = document.getElementsByClassName('g2t');
   	for (i = 0; i < elements.length; i = i+1){
   		elements[i].innerHTML = text3;
   	}
 
-  	var text4 = "I did my internship here as an UX Architect. With guidance from senior designers, I designed internal sites from scratch, thinking deep into website navigation. I also participated in the redesign of d23.com and thewaltdisneycompany.com.";
+  	var text4 = "As an UX Architect, I collaborated with lead designers to create prototypes for internal website redesign, thinking deep into website navigation and interactive patterns. I participated in the redesign of d23.com and thewaltdisneycompany.com. Here, I learned to create compelling design narratives through data visualizations and graphic designs that communicated user insights to stakeholders.";
   	var elements = document.getElementsByClassName('dis');
   	for (i = 0; i < elements.length; i = i+1){
   		elements[i].innerHTML = text4;
