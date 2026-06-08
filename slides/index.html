@@ -1,4 +1,21 @@
 <html>
+  <head>
+    <meta name="robots" content="noindex, nofollow">
+      <script id="site-auth-shield-script">
+(function(){
+  if (document.getElementById('site-auth-shield')) return;
+  var shield = document.createElement('div');
+  shield.id = 'site-auth-shield';
+  shield.style.position = 'fixed';
+  shield.style.inset = '0';
+  shield.style.background = 'rgba(255,255,255,0.96)';
+  shield.style.zIndex = '999999';
+  shield.style.pointerEvents = 'none';
+  document.documentElement.appendChild(shield);
+})();
+</script>
+<script src="/js/site-auth.js"></script>
+</head>
 
 <script type="text/javascript">
 
