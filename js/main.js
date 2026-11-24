@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 
   window.onload = function() {
-  	var text1 = "I've been working on Microsoft Teams since its public launch in 2017. Over the years Teams has become Microsoft's fastest growing product. I’m on the core team of the design org here and have delivered many experiences that millions of people use everyday. I collaborate with cross-functional teams to drive features from concept to launch, define design roadmaps, manage requirements, and routinely present my work to senior leadership team.";
+  	var text1 = "Shaping and shipping Teams Agents. I drive agentic experience strategy for Microsoft Teams and the agent identity workstream across M365, defining the vision and primitives for multiplayer agents and Copilot. I also set cross-product design principles, mentor designers, and previously led core Teams design (People, Presence, Messaging) as it scaled to 300+ MAU.";
   	var elements = document.getElementsByClassName('msft');
   	for (i = 0; i < elements.length; i = i+1){
   		elements[i].innerHTML = text1;
