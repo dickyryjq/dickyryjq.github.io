@@ -3,18 +3,8 @@ $(document).ready(function() {
 	$('#nav').onePageNav();
 });
 
-// Google Analytics
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-44938135-1', 'xiaoyuew.com');
-  ga('send', 'pageview');
-
-
   window.onload = function() {
-  	var text1 = "I've been working on Microsoft Teams since its public launch in 2017. Over the years Teams has become Microsoft's fastest growing product. I’m on the core team of the design org here and have delivered many experiences that millions of people use everyday. I collaborate with cross-functional teams to drive features from concept to launch, define design roadmaps, manage requirements, and routinely present my work to senior leadership team.";
+  	var text1 = "Shaping and shipping Teams Agents. I drive agentic experience strategy for Microsoft Teams and the agent identity workstream across M365, defining the vision and primitives for multiplayer agents and Copilot. I also set cross-product design principles, mentor designers, and previously led core Teams design (People, Presence, Messaging) as it scaled to 300+ MAU.";
   	var elements = document.getElementsByClassName('msft');
   	for (i = 0; i < elements.length; i = i+1){
   		elements[i].innerHTML = text1;

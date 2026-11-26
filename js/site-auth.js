@@ -1,4 +1,15 @@
 (function(){
+  var GA_MEASUREMENT_ID = 'G-0BRVY04XQE';
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+  window.gtag('js', new Date());
+  window.gtag('config', GA_MEASUREMENT_ID);
+
+  var analyticsScript = document.createElement('script');
+  analyticsScript.async = true;
+  analyticsScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_MEASUREMENT_ID;
+  document.head.appendChild(analyticsScript);
+
   var PASSWORD = 'letmein';
   var STORAGE_KEY = 'siteAuth';
   // Clear any previous persistent auth stored in localStorage so we switch
@@ -173,13 +184,19 @@
 
     input.focus();
 
+    submit.addEventListener('click', function() {
+      window.gtag('event', 'site_password_go_clicked');
+    });
+
     form.addEventListener('submit', function(event) {
       event.preventDefault();
       var value = input.value.trim();
       if (value === PASSWORD) {
+        window.gtag('event', 'site_password_correct');
         setAuthenticated();
         removeOverlay();
       } else {
+        window.gtag('event', 'site_password_incorrect');
         error.textContent = 'That password is incorrect.';
         error.style.display = 'block';
         error.style.visibility = 'visible';
@@ -219,17 +236,31 @@
     });
   }
 
+  function trackMarkedClicks() {
+    var elements = document.querySelectorAll('[data-analytics-event]');
+    elements.forEach(function(element) {
+      element.addEventListener('click', function() {
+        window.gtag('event', element.getAttribute('data-analytics-event'));
+      });
+    });
+  }
+
   function init() {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() {
+        interceptPdfLinks();
+        trackMarkedClicks();
+      });
+    } else {
+      interceptPdfLinks();
+      trackMarkedClicks();
+    }
+
     if (isAuthenticated()) {
       removeShield();
       return;
     }
     createOverlay();
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', interceptPdfLinks);
-    } else {
-      interceptPdfLinks();
-    }
   }
 
   init();
